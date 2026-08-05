@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Runtime data and user state
+data/
+userdata/
+user-data/
+cache/
+tmp/
+temp/
+*.log
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Tests and test output (not part of this source release)
+test/
+tests/
+__tests__/
+test-fixtures/
+*.test.js
+*.spec.js
+coverage/
+.nyc_output/
+
+# Build output; build/ contains checked-in installer source assets
+dist/
+release/
+out/
+*.blockmap
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
