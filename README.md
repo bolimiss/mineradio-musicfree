@@ -29,7 +29,6 @@ universal-import/         跨平台歌曲及歌单链接导入模块
 server.js                 本地服务与应用 API 入口
 musicfree-plugin-host.js  MusicFree 插件管理和媒体解析入口
 ```
-`package.json` 的 Electron 入口为 `desktop/main.js`。本源码整理自已安装的桌面版本，Electron 运行时和打包器并未混入源码包；进行二次开发或生成安装包时，请在自己的构建环境中配置兼容的 Electron 与打包工具。
 
 - 本软件接入musicfree做为音源接口 个人觉得这个比LX要好一点 网上暂时没看见有做这个接口 那我就不客气了
 - 已经做了2天了 因为在忙 里面因该还有一点bug是我没有发现的 所以就麻烦各位大佬了 联系qq 192565935
